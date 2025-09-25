@@ -1,3 +1,5 @@
+/* CAFE STYLE */
+
 h1, h2, p{
     text-align: center;
 }
@@ -74,3 +76,4 @@ a:active {
 .address{
   margin-bottom: 5px;
 }
+
