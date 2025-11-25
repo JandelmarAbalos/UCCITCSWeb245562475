@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="TechDoc.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>Web Development Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+    <a class="nav-link" href="#JavaScript_Overview">JavaScript Overview</a>
+    <a class="nav-link" href="#Developer_Tools">Developer Tools</a>
+  </nav>
+
+  <main id="main-doc">
+
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Web development is the process of creating websites and applications for the internet.</p>
+      <p>It includes frontend, backend, and full-stack development paths.</p>
+      <p>Frontend handles visuals and user interaction.</p>
+      <code>console.log("Welcome to Web Development");</code>
+      <ul>
+        <li>Frontend</li>
+        <li>Backend</li>
+        <li>Fullstack</li>
+      </ul>
+      <p>Modern web development uses frameworks and libraries.</p>
+    </section>
+
+    <section id="HTML_Basics" class="main-section">
+      <header>HTML Basics</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It is responsible for the structure of a webpage.</p>
+      <code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code>
+      <p>HTML elements include headings, paragraphs, links, and images.</p>
+      <ul>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+      </ul>
+      <code>&lt;p&gt;Hello World&lt;/p&gt;</code>
+    </section>
+
+    <section id="CSS_Fundamentals" class="main-section">
+      <header>CSS Fundamentals</header>
+      <p>CSS is used to style HTML content.</p>
+      <p>It controls layout, colors, fonts, and animations.</p>
+      <code>body { background: lightgray; }</code>
+      <p>CSS can be applied inline, internally, or externally.</p>
+      <ul>
+        <li>Selectors</li>
+        <li>Properties</li>
+      </ul>
+      <code>.title { font-size: 24px; }</code>
+    </section>
+
+    <section id="JavaScript_Overview" class="main-section">
+      <header>JavaScript Overview</header>
+      <p>JavaScript is the main programming language of the web.</p>
+      <p>It allows client-side interaction and logic.</p>
+      <code>let x = 10;</code>
+      <p>JavaScript runs in all modern browsers.</p>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+      </ul>
+      <code>function greet() { return "Hello"; }</code>
+    </section>
+
+    <section id="Developer_Tools" class="main-section">
+      <header>Developer Tools</header>
+      <p>Modern browsers include built-in developer tools.</p>
+      <p>These tools allow debugging and performance checks.</p>
+      <code>Ctrl + Shift + I</code>
+      <p>Developers can inspect HTML, CSS, and JavaScript in real time.</p>
+      <ul>
+        <li>Console</li>
+        <li>Inspector</li>
+      </ul>
+      <p>DevTools are essential for web development workflow.</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
